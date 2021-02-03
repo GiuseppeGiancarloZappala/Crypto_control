@@ -41,7 +41,7 @@ params={
     'convert':'usd'
 }
 headers={'Accepts':'applications json',
-         'X-CMC_PRO_API_KEY':'e4e05f3b-045d-43e1-9fd8-94fd63c8b512',}
+         'X-CMC_PRO_API_KEY':'e4e05f3b-045d-43e1-9fd8-***********',}
 r=requests.get(url=url,headers=headers,params=params).json()
 
 
